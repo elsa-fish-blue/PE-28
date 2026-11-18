@@ -7,7 +7,7 @@ public class DeplacementPlatfomer : MonoBehaviour
     public float Speed = 5f;
     public float JumpForce = 9f;
     private Rigidbody2D rb;
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
 
@@ -23,10 +23,15 @@ public class DeplacementPlatfomer : MonoBehaviour
             rb.linearVelocityY = JumpForce;
         }
     }
-
+    void Jump()
+    {
+        rb.AddForceY(JumpForce);
+    }
 
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            Jump();
+           }
     }
 }
