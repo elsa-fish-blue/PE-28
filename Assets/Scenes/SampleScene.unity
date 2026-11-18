@@ -424,6 +424,10 @@ PrefabInstance:
       propertyPath: m_UseFullKinematicContacts
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 6097f90690948d94eb2e908211b2a61c, type: 2}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
       value: mur_1
