@@ -412,6 +412,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4442970424556034602, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
       value: platform
@@ -472,6 +476,14 @@ PrefabInstance:
     - target: {fileID: 2584851524242931078, guid: d2ed6fa4506ac494a827b686f04efc5d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7290213750186194689, guid: d2ed6fa4506ac494a827b686f04efc5d, type: 3}
+      propertyPath: jumpForce
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409848755743479743, guid: d2ed6fa4506ac494a827b686f04efc5d, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
