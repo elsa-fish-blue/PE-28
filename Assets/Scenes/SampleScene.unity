@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -270,6 +271,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollowingPlayer
   ActivePlayer: {fileID: 1669973334}
+--- !u!114 &519420034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76072abee03d6ec4d97000737391647d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DebugageChangementJoueur
+  var1: {fileID: 1669973334}
+  var2: {fileID: 538178939036112267, guid: 238c6cf3973fb7246b1c42276bddcf07, type: 3}
+  CameraU: {fileID: 519420033}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +604,14 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
       value: platform_8
@@ -733,6 +757,14 @@ PrefabInstance:
     - target: {fileID: 4442970424556034602, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_BodyType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 6.9
       objectReference: {fileID: 0}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
@@ -897,6 +929,14 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 5.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
       value: platform_2
@@ -977,6 +1017,14 @@ PrefabInstance:
     - target: {fileID: 4442970424556034602, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_BodyType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 6.8
       objectReference: {fileID: 0}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
@@ -1212,6 +1260,46 @@ PrefabInstance:
     - target: {fileID: 4442970424556034602, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_BodyType
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Size.x
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.w
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.x
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.y
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.border.z
+      value: 0.002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.drawMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.736
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.492
+      objectReference: {fileID: 0}
+    - target: {fileID: 4525400574640993423, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.951
       objectReference: {fileID: 0}
     - target: {fileID: 4528778834904356741, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_Name
