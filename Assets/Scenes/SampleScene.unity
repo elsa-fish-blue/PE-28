@@ -524,9 +524,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Size.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35546dd8e74e70a4cba4aa3912f39d4a, type: 3}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.5902004
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -654,9 +670,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Size.x
+      value: 6.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35546dd8e74e70a4cba4aa3912f39d4a, type: 3}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.897293
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -801,9 +833,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Size.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35546dd8e74e70a4cba4aa3912f39d4a, type: 3}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.5902004
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -866,9 +914,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Size.x
+      value: 6.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 35546dd8e74e70a4cba4aa3912f39d4a, type: 3}
+    - target: {fileID: 2519308862333009387, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_DrawMode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.792411
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2872202766564503303, guid: f909fb972bb72ab4ab916b365020cb26, type: 3}
       propertyPath: m_LocalPosition.x
